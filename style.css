@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    backgroud: #1E6F72;
+    height: 50vh
+  }
+  
+  .navigation {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+  }
+  
+  nav {
+    background: #1E6F72;
+    text-align: center;
+  }
+  
+  
+  ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px 0;
+  }
+  
+  li a {
+    text-decoration: none;
+    padding: 15px 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  
+  li a:hover {
+    background: #1E6F72;
+    color: #113738;
+  }
