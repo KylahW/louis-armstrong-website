@@ -1,44 +1,101 @@
-.navigation
-
 body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background: #1E6F72;
-    height: 50vh
-  }
-  
-  .navigation {
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-  }
-  
-  nav {
-    background: #1E6F72;
-    text-align: center;
-  }
-  
-  
-  ul li {
-    list-style-type: none;
-    display: inline-block;
-    padding: 15px 0;
-  }
-  
-  li a {
-    text-decoration: none;
-    padding: 15px 30px;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1440px;
+  margin; 0 auto;
+}
+
+header {
+background-image: url("https://assets.codepen.io/11755276/louis_header_image.jpeg");
+  background-size: cover;
+  height: 749px;
+  position: relative;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 80px;
+  background: rgba(40,22,18,.8);
+}
+
+.navigation h4 {
+  color: #fff;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  list-style-type: none;
+}
+.rectangle {
+  height: 217px;
+  width: 705px;
+  background: rgba(40,22,18,.8);
+  position: absolute;
+  right: 10px;
+  bottom: 30px;
+}
+
+.rectangle h2 {
+  font-size: 72px;
+  color: #fff;
+  text-align: right;
+  position: absolute;
+  right: 10px;
+  bottom: 60px;
+}
+
+.rectangle h3 {
+  font-size: 32px;
+  color: #fff;
+  text-align: right;
+  position: absolute;
+  right: 10px;
+  bottom: 4px;
+}
+
+.blueshirt {
+  height: 611px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.quick-facts-section {
+  display: flex;
+  padding: 3em 6em;
+}
+
+.quick-facts-image {
+  flex: 2;
+}
+
+
+.quick-facts-content {
+  flex: 1;
+}
+
+.quick-facts-content-title {
+    background: #281915;
     color: white;
-    font-weight: bold;
-    font-size: 1.2em;
-  }
-  
-  
-  li a:hover {
-    background: #1E6F72;
-    color: #113738;
-  }
+  padding: 43px 24px;
+}
+
+ul {
+  background: #EBBF96;
+  height: 453px;
+  width: 410px;
+}
