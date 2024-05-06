@@ -10,7 +10,7 @@ body {
 }
 
 header {
-background-image: url("https://assets.codepen.io/11755276/louis_header_image.jpeg");
+background-image: url("louis_header_image.jpeg");
   background-size: cover;
   height: 749px;
   position: relative;
@@ -94,8 +94,223 @@ nav li {
   padding: 43px 24px;
 }
 
-ul {
+.facts{
   background: #EBBF96;
   height: 453px;
   width: 410px;
+  font-size: 18px;
+}
+
+.music h3{
+  display: flex;
+  position: absolute;
+  text-align: left;
+  left: 100px;
+  top: 1450px
+}
+
+.music-image {
+  height: 493px;
+  position: absolute;
+  left: 100px;
+  top: 1500px;
+}
+
+.music-list {
+  position: absolute;
+  top: 1500px;
+  font-size: 32px;
+}
+
+.interviews h3 {
+  display: flex;
+  position: absolute;
+  text-align: left;
+  left: 100px;
+  top: 2050px;
+}
+
+.interview-image-1 {
+  height: 374px;
+  width: 600px;
+  position: absolute;
+  left: 100px;
+  top: 2100px;
+}
+
+.interview-image-2 {
+  height: 374px;
+  width: 600px;
+  position: absolute;
+  right: 100px;
+  top: 2100px;
+}
+
+.interview-1-title {
+  background: #281915;
+  color: #ffffff;
+  padding: 15px 54px;
+  position: absolute;
+  left: 100px;
+  top: 2450px;
+}
+
+.interview-2-title {
+   background: #281915;
+  color: #ffffff;
+  padding: 15px 12px;
+  position: absolute;
+  right: 100px;
+  top: 2450px;
+}
+
+.Collabs h3 {
+  display: flex;
+  position: absolute;
+  text-align: left;
+  left: 100px;
+  top: 2550px;
+}
+
+.duke-card {
+  height: 375px;
+  width: 334.22px;
+  position: absolute;
+  left: 100px;
+  top: 2600px;
+}
+
+.duke-caption {
+  background: #EBBF96;
+  padding: 1px;
+  width: 334.22px;
+  position: absolute;
+  left: 100px;
+  top: 2950px;
+}
+
+.ella-card {
+  height: 375px;
+  width: 334.22px;
+  position: absolute;
+  left: 500px;
+  top: 2600px;
+}
+
+.ella-caption {
+  background: #EBBF96;
+  padding: 1px;
+  width: 334.22px;
+  position: absolute;
+  left: 500px;
+  top: 2950px;
+}
+
+.sinatra-card {
+  height: 375px;
+  width: 334.22px;
+  position: absolute;
+  right: 250px;
+  top: 2600px;
+}
+
+.sinatra-caption {
+  background: #EBBF96;
+  padding: 1px;
+  width: 334.22px;
+  position: absolute;
+  right:250px;
+  top: 2950px;
+}
+
+.artists-title {
+  display: flex;
+  position: absolute;
+  text-align: left;
+  left: 100px;
+  top: 3100px;
+}
+
+.duke-image {
+  height: 253px;
+  position: absolute;
+  left: 100px;
+  top: 3200px;
+}
+
+.duke {
+  
+}
+
+.ella-image {
+  height: 253px;
+  position: absolute;
+  left: 500px;
+  top: 3200px;
+}
+
+.frank-image {
+  height: 253px;
+  width: 240px;
+  position: absolute;
+  left: 900px;
+  top: 3200px;
+}
+
+.duke {
+  position: absolute;
+  left: 90px;
+  top: 3450px;
+}
+
+.ella {
+  position: absolute;
+  left: 520px;
+  top: 3450px;
+}
+
+.frank {
+  position: absolute;
+  right: 310px;
+  top: 3450px;
+}
+
+.miles-image {
+  height: 253px;
+  width: 240px;
+  position: absolute;
+  left: 100px;
+  top: 3600px;
+}
+
+.bing-image {
+  height: 253px;
+  width: 240px;
+  position: absolute;
+  left: 500px;
+  top: 3600px;
+}
+
+.billie-image {
+  height: 253px;
+  position: absolute;
+  top: 3600px;
+}
+
+.miles {
+  position: absolute;
+  left: 140px;
+  top: 3850px;
+}
+
+.bing {
+  position: absolute;
+  left: 530px;
+  top: 3850px;
+}
+
+.billie {
+  position: absolute;
+  right: 310px;
+  top: 3850px;
 }
