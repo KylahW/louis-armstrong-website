@@ -10,7 +10,7 @@ body {
 }
 
 header {
-background-image: url("louis_header_image.jpeg");
+background-image: url("images/louis_header_image.jpeg");
   background-size: cover;
   height: 749px;
   position: relative;
